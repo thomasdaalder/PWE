@@ -1,12 +1,20 @@
 .body{
-	color: #111;
-	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 28px;
+	text-align: center;
+	overflow-x: hidden;
+}
+
+.navbar{
+	padding-left: 5%;
+}
+
+.pull-right{
+	padding-right: 5%;
 }
 
 .mid h2 {
-  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeue", "Helvetica Neue", sans-serif;
   font-weight: 900;
   color: white;
   text-transform: uppercase;
@@ -18,14 +26,16 @@
   transform: translate(-50%, -50%);
 }
 
-
-
-.img-circle {
+.img-foto {
 	size: 100%;
-	max-height: 400px;
-	max-width: 400px;
+	max-height: 300px;
+	max-width: 300px;
 	text-align: center;
-	padding-top: 90px;
+	margin-top: 50px;
+}
+
+.img-circle{
+	size: 100%;
 }
 
 #header{
@@ -33,42 +43,58 @@
 	pointer-events: none;
 }
 
-.body{
-	text-align: center;
-}
-
 #about{
-	height: 600px;
+	height: 300px;
 	width: auto;
 	background-color: white;
 }
 
 #about p{
 	text-align: center;
-	margin-top: 0;
-	margin-bottom: 0;
+	
 	display: inline-block;
-    line-height: 0.8;
+    margin: 0 30%;
 }
 
 #about h1{
 		text-align: center;
+}
 
+#work h1{
+	margin-top: 50px;
+	margin-bottom: 100px;
 }
 
 #work{
-	height: 1000px;
+	height: 900px;
 	width: auto;
-	background-color: darkgrey;
-
+	background-color: #eaeaea;
+	padding-top: 50px;
+	padding-bottom: 500px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 #contact{
-	height: 1000px;
 	width: auto;
-	background-color: lightgrey;
+	background-color: white;
+	height: auto;
 }
 
+.col-md-7{
+	padding-left: 90px;
+}
+.social {
+	text-align: left;
+	
+}
+.col-md-7 h2{
+	text-align: left;
+}
+
+.col-md-7 p{
+	text-align: left;
+}
 #nav {
 	width:100%;
 	float: center;
@@ -90,8 +116,6 @@
     width: 100%;
     text-align: center;
     display: flex;
-
-
 }
 
 #nav li {
@@ -110,4 +134,26 @@
 
 #nav li a:hover {
 	background-color: #111; 
+}
+
+.col-lg-4 p{
+	padding: 0 10%;
+}
+
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.footer p{
+	padding-top: 30px;
+}
+
+.row{
+	padding-bottom: 50px;
 }

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" type="text/css" href="includes/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="includes/main.css">
 	<title>Thomas's Portfolio</title>
 </head>
 
@@ -8,19 +10,34 @@
 
 <div class="container">
 
-<link rel="stylesheet" type="text/css" href="includes/main.css">
+   <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Thomas Daalder</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li> <a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+             <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
 
-<!-- Fixed navigation bar-->
 
-<div id="nav">
-	<ul>
-		<li><a a class="active" href="#">Home</a></li>
-		<li><a href="#about.html">About me</a></li>
-		<li><a href="#work.html">My work</a></li>
-		<li><a href="#contact.html">Contact me</a></li>
-	</ul>
-      
-</div>
+           
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
 <!-- First page -->
 
 
@@ -33,35 +50,88 @@
 
 <!-- Second page -->
 
-<img class="img-circle" src="circle copy.jpg">
+<img class="img-foto" src="circle copy.jpg">
+ <a id="about.html" class="smooth"></a>
 <div id="about">
 
-  <a id="about.html" class="smooth"></a>
       <p class="intro">
-		<h1>About me.</h1><p>Hi there! My name is Thomas Daalder.</p> I'm 23 years old and I live in Amsterdam. <p>I’m an enthousiastic creative with a trained eye for detail. <p>I love turning briefs around, adapt to the client and reach the audience in the most clear and direct way.</p><p> I’m constantly growing in my environment by asking feedback and critique. Have a good day!</p>
+		<h1>About me</h1><p>Hi there! My name is Thomas Daalder. I'm 23 years old and I live in Amsterdam. I’m an enthousiastic creative with a trained eye for detail. I love turning briefs around, adapt to the client and reach the audience in the most clear and direct way. I’m constantly growing in my environment by asking feedback and critique. Have a good day!</p>
 </div>
 
 <!-- Third page -->
 <div id="work">
+<h1>My latest work</h1>
+
   <a id="work.html" class="smooth"></a>
-    Portfolio page comes here.
+
+  <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="ns.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>NS Travel Ticket</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-default" href="http://thomasdaalder.eu/?portfolio=ns-travel-ticket " target="_blank" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="vodafone copy.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Vodafone</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-default" href="http://thomasdaalder.eu/?portfolio=vodafone" target="_blank" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="nivea.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Nivea</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="http://thomasdaalder.eu/?portfolio=nivea-bamboo-cups" target="_blank" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
 </div>
 
 <!-- Fourth page -->
 <div id="contact">
   <a id="contact.html" class="smooth"></a>
-        <form action="" method="POST" enctype="multipart/form-data">
-    <input name="action" value="submit" type="hidden"> Your name:<br>
-    <input name="name" size="30" type="text"><br> Your email:<br>
-    <input name="email" size="30" type="text"><br> Your message:<br>
-    <textarea name="message" rows="7" cols="30">
-    </textarea><br>
-    <input value="Send email" type="submit">
-    </form>
+  
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">I'm for hire. <span class="text-muted">Just contact me.</span></h2>
+          <p class="lead">Email: thomasdaalder@gmail.com</p>
+            
+            <div class="social">
+            <a href="mailto:thomasdaalder@gmail.com Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
+        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+
+            <a href="http://www.facebook.com/?u=https://simplesharebuttons.com" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+
+          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://simplesharebuttons.com" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
+        </div>
+    </a>
+    </a>
+    </a>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="plaatje.png" alt="Generic placeholder image">
+        </div>
+      </div>
 </div>
 </div>
 
-<link rel="javascript" href="includes/javascript.js">
-</body>
+    </div>
 </div>
+ <!-- FOOTER -->
+      <footer class="footer">
+        <p>&copy; NYCDA 2017 &middot; <a href="#">Back to top</a></p>
+      </footer>
+
+
+<script src="includes/javascript.js"> </script>
+
+</body>
 </html>
